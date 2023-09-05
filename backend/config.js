@@ -1,5 +1,5 @@
-export const PORT = 5555;
+export const PORT = process.env.PORT;
 
-export const mongoDBURL =
-  'mongodb+srv://may:may@cluster0.02iy63a.mongodb.net/?retryWrites=true&w=majority';
+export const mongoDBURL = process.env.MONGO_DB_URL;
+
 
